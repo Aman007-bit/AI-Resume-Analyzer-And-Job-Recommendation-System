@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+jla_checkpoint.json
+jla_checkpoint.json.bak
+sync_log.txt
+backups/
+schema_backup.sql
+check_jla.py
+*.pyc

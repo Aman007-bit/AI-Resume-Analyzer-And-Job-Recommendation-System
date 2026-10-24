@@ -1,0 +1,7 @@
+@echo off
+set JLA_ALLOW_PRODUCTION_WRITE=true
+set JLA_INGESTION_AUTHORIZED=true
+set JLA_RECOMMENDATIONS_AUTHORIZED=true
+set JLA_USE_DATE_WINDOWS=false
+python sync_jla_staging.py
+pause

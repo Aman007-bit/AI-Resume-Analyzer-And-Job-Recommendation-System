@@ -1,0 +1,69 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.staging
+backend/.env.staging.backup
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Frontend build output
+dist/
+build/
+
+# Local backups and database exports
+backend/backups/
+backend/schema_backup.sql
+
+# Sensitive local utility scripts, review separately before sharing
+backend/correct_staging_password.ps1
+backend/reset_user_password.py
+
+# Runtime / local data
+backend/jla_checkpoint.json
+backend/jla_checkpoint.json.bak
+backend/sync_log.txt
+backend/check_jla.py
+*.log
+
+# Temp lists / dumps
+backend/files.txt
+backend/file_list.txt
+backend/part*.txt
+backend/loader.txt
+backend/tests_part.txt
+backend/t1.txt
+backend/t2.txt
+backend/repair.txt
+
+# Old git folders
+.git_old/
+**/.git_old/
+
+# Temporary files
+*.tmp
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Zip archives and DB dumps
+*.zip
+*.sql
+backup_*.sql
+
+# Windows junk file
+nul
+
+backend.zip
+frontend.zip
